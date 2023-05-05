@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mBtnStomach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOMACH PROBLEMS"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <TextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="WELCOME TO MY HEALTH APP"
+        android:textColor="#021993"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/mTvText"
+        android:layout_width="411dp"
+        android:layout_height="34dp"
+        android:text="Hello user,"
+        android:textColor="#EF4606"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/mTvcontent"
+        android:layout_width="411dp"
+        android:layout_height="155dp"
+        android:text="Welcome to my health app.The health app enables you to connect to websites that instruct you on ways to react during some minor and major health issues before taking the patient to a doctor."
+        android:textColor="#203"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/mTvtext"
+        android:layout_width="411dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Here are some common health issues and their solutions/first-aid:"
+        android:textColor="#EF0A5B"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/mBtnAsthma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASTHMA"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <Button
+        android:id="@+id/mBtnAllergies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALLERGIES"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <Button
+        android:id="@+id/mBtnUlcers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ULCERS"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <Button
+        android:id="@+id/mBtnConversions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONVERSIONS"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <Button
+        android:id="@+id/mBtnCrumps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRUMPS"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="662dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
